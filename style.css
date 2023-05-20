@@ -1,0 +1,173 @@
+body
+{
+    background-image: url('https://www.icezar.co.il/pub/123012/553-01_duzy-copy-950x950-min.jpg?quality=65&width=&height=&mode=max');
+}
+h1
+{
+    position: absolute;
+    left: 550px;
+    top: 5px;
+    margin-right: 120px;
+    text-align: center;
+    font-size: 80px;
+}
+#demo
+{
+    font-size: 15px;
+    color: blue;
+}
+h2
+{
+    
+    font-size: 45px;  
+    left: 200px;
+}
+#signIn
+{
+    
+    border-radius: 5px;
+    width: 380px;
+    height: 450px;
+    border: solid black 2px;
+    position: absolute;
+    top: 160px;
+    left: 480px;
+}
+.mainUser
+{
+    width: 250px;
+    height: 40px;
+}
+#butto
+{
+    background-image: url('https://www.icezar.co.il/pub/123012/553-01_duzy-copy-950x950-min.jpg?quality=65&width=&height=&mode=max');
+    display: inline;
+}
+
+#chooseLevel
+{
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    display: none;
+    width: 380px;
+    height: 450px;
+    top: 160px;
+    left: 480px;
+}
+.flexboxContainer
+{
+    display: flex;
+    left:480px;
+    width: 380px;
+    height: 450px;
+    top: 160px;
+
+}
+.flexItem
+{
+    text-align: center;
+    left:480px;
+    width: 380px;
+    height: 450px;
+    top: 160px;
+
+}
+h4
+{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.btn
+{
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#sudokuTable{
+    display: none;
+}
+table{
+position: absolute;
+left: 400px;
+}
+.flexboxContainer{
+    height: 200px;
+    margin-left: 160px;
+}
+table,td,tr
+{
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+body
+{
+    background-image:url('https://www.icezar.co.il/pub/123012/553-01_duzy-copy-950x950-min.jpg?quality=65&width=&height=&mode=max');
+    text-align: center;
+    font-size: 35px;
+}
+hr
+{
+    width: 460px;
+    border-color: rgb(172, 168, 168);
+    position: absolute;
+    top: 130px;
+    left: 435px;
+}
+#mainDiv
+{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    margin-left: 30px;
+    top: 170px;  
+}
+input
+{
+    background-color: aliceblue;
+    border: none;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#btnDiv
+{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 510px;
+    left: 885px; 
+}
+.btn
+{
+    border-radius: 10px;
+    text-align: center;
+    color: beige;
+    cursor: pointer;
+    background-color: black;
+    transition: 0.2s ease-in-out 0s;
+    width: 120px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1em;
+    margin: 3px;
+}
+
+/* button {
+    background-color: blue;
+
+    padding: 5px;
+    border: none;
+    color: white;
+   
+   
+    border-radius: 5px;
+  
+  } */

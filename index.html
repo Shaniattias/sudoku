@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>sudoku</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+
+<body>
+    <h1>𝖘𝖚𝖉𝖔𝖐𝖚</h1>
+    <div class="border" id='signIn'>
+        <h5> Username 'abcd'</h5>
+        <input class="mainUser" id="user" type="email" placeholder="Enter Username">
+        <h5>password '1234'</h5>
+        <input class="mainUser" id="pasword" type="password" placeholder="Enter Password"><br>
+        <p id="demo"></p>
+        <button id="butto" onclick="check()">Enter</button>
+    </div>
+    <div id="chooseLevel">
+        <h5>please select the game level:</h5>
+        <div class="flexboxContainer">
+            <div class='flexItem'><button class="btn" onclick="show(1)">easy </button></div>
+            <div class='flexItem'><button class="btn" onclick="show(2)">medium</button></div>
+            <div class='flexItem'><button class="btn" onclick="show(3)">hard </button></div>
+        </div>
+    </div>
+    <div id="sudokuTable">
+        <hr>
+        <div id="mainDiv"></div>
+        <div id="btnDiv">
+            <button class="btn" onclick="check3()">finish</button>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+
+</html>
